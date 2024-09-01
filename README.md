@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# 技术栈
+- 使用React + Typescript + Tailwindcss 完成前端页面的开发
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 技术技能
+设计：Figma/Framer
+前端：Vue2/Vue3/js/ts/React/RN/AskTS/Flutter
+后端：EggJs/NodeJs
+移动端：Flutter/IOS/Android
+小程序：Uniapp
+AIGC：comfyUI/SD/llama
 
-## Available Scripts
+# 项目经验
+数字孪生系统：独立完成从需求到上线的整个流程，实现了实时监控和数据分析功能。
+实时公交系统：负责研发和管理团队，确保项目按期完成并达到客户满意度。
+内部框架库封装：设计、开发并维护内部使用的前端/后台框架和库。
+AskTS 拥有基础和高级证书。
 
-In the project directory, you can run:
+# 个人优势
+独立完成从0到1的多个大型项目
+具有强烈的责任感和团队合作精神
+能够快速学习新技术，并应用于实际工作中
 
-### `npm start`
+# 求职意向
+我目前正在寻找一份挑战性的前端开发工程师或管理岗位，希望能够与您一起携手成长。
+如果您对我的简介感兴趣，请随时联系我，我们可以进行进一步的沟通和交流！
+期待您的回复！
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 这是我个人主页第4个版本，前面几个版本分别是
+[v1](http://v1.lazy-studio.com)|[v2](http://v2.lazy-studio.com)|[v3](http://v3.lazy-studio.com)

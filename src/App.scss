@@ -1,0 +1,18 @@
+@import './assets/css/public.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+}
+
+ul,ol,li { list-style: none; }
+
+#root {
+  @include flexbox(center, null);
+}
