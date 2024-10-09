@@ -1,13 +1,18 @@
-import React from 'react';
+import { createContext, Dispatch, SetStateAction, useState } from 'react';
 import './App.scss';
-import HomePage from './pages/home';
+
+type AppContextValue = {
+  text: string;
+  setText?: Dispatch<SetStateAction<string>>;
+};
+
+export const AppContext = createContext<AppContextValue>({
+  text: 'Hello World!!'
+});
 
 function App() {
-  return (
-    <div className="App w-screen min-h-screen">
-      <HomePage />
-    </div>
-  );
+  const [ text, setText ] = useState('hello');
+  return <AppContext.Provider value={{ text, setText }} />
 }
 
 export default App;

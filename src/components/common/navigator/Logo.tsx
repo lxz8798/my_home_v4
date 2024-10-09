@@ -1,26 +1,24 @@
-// 创建一个由React.FN的函数组件，命名为Logo，左右布局，左边引入logo.png图片，右边显示文字“LAZY STUDIO”。  
+// const COMPUTER_ICON = require('../../../assets/images/responseIcons/computer.svg')
+// const PHONE_ICON = require('../../../assets/images/responseIcons/phone.svg')
+// const PAD_ICON = require('../../../assets/images/responseIcons/pad.svg')
 
-// require在assets/images/文件夹下的logo图片，并将其作为src属性值赋给img标签。
-// 右边的文字“LAZY STUDIO”则使用span标签包裹，并设置className为“logo-text”。
-// 最后将两个标签组合在一起，并设置className为“logo”作为整体样式。
-// 这样，就完成了左右布局的logo组件的创建。 
+import COMPUTER_ICON from "../../../assets/images/responseIcons/computer.svg";
+import PHONE_ICON from "../../../assets/images/responseIcons/phone.svg";
+import PAD_ICON from "../../../assets/images/responseIcons/pad.svg";
 
-// 注意：require函数的使用，需要在webpack.config.js中配置alias，将@指向src目录。
+const RESPONST_LIST = [PAD_ICON, PHONE_ICON, COMPUTER_ICON]
 
-// 具体配置方法请参考：https://webpack.js.org/configuration/resolve/#resolvealias
-
-
-// Logo.tsx
-import React from "react";
-
-const Logo: React.FC = () => {
-  const Logo = require("@/assets/images/logo.png");
+export const Logo = () => {
+  const Logo = require("../../../assets/images/logo.png");
   return (
-    <div className="logo">
-      <img src={Logo} alt="logo" />
-      <span>LAZY STUDIO</span>
+    <div className="logo flex items-center">
+      <img className="hidden md:block" src={Logo} alt="logo" width="50" height="50" />
+      <span className="hidden md:block md:text-sm">lazy-studio.com</span>
+      <ul className='inline-flex flex-row items-center gap-2 ml-4 hidden md:inline-flex'>
+        {
+          RESPONST_LIST.map((icon) => <li><img src={icon} width={'20px'} /></li> )
+        }
+      </ul>
     </div>
   );
 };
-
-export default Logo;
